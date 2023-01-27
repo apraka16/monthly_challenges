@@ -1,5 +1,5 @@
 {% extends 'base.html' %} {% block page_title %} All Challenges {% endblock %}
-{% block content %}
+{% block content %} {% include 'challenges/includes/header.html' %}
 
 <ul>
   {% for month in months %}
